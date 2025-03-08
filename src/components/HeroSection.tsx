@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
     <section className="flex overflow-hidden relative flex-col items-start px-16 pb-16 w-full min-h-[585px] max-md:px-5 max-md:max-w-full">
       <img
         src="/HeroSection/Hero_background.png"
-        className="object-cover absolute inset-0 size-full"
+        className="object-cover absolute inset-0 w-full h-[91%]"
         alt="Hero background"
       />
 

@@ -3,7 +3,7 @@ import React from "react";
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center px-20 py-14 mt-36 w-full bg-neutral-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <section className="flex flex-col items-center px-20 py-14 w-full bg-neutral-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <span className="text-sm tracking-widest text-center text-amber-500">
         WELCOME TO REGISTERKARO.IN
       </span>

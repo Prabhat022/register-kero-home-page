@@ -14,7 +14,7 @@ const TestimonialsSection: React.FC = () => {
       </div>
 
       <div className="mt-10 max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col">
+        <div className="flex gap-5 max-md:flex-col justify-around">
           {/* Testimonial 1 */}
           <article className="w-2/5 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-start px-5 py-7 mx-auto w-full bg-white rounded-xl border border-solid border-[color:var(--Fuschia-60,#FCDDEC)] max-md:mt-8 max-md:max-w-full">
@@ -57,39 +57,6 @@ const TestimonialsSection: React.FC = () => {
                 alt="Quote"
               />
               <p className="self-stretch mt-6 text-base leading-7 text-gray-500 max-md:max-w-full">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat aute irure sint
-                amet occaecat cupidatat non proident ea commodo consequat aute
-                irure sint amet occaecat cupidatat non proident
-              </p>
-              <div className="flex gap-4 mt-11 tracking-normal max-md:mt-10">
-                <img
-                  src="/TestimonialsSection/Chris_profile.png"
-                  className="object-contain shrink-0 aspect-square rounded-[40px] w-[70px]"
-                  alt="Chris profile"
-                />
-                <div className="flex flex-col my-auto">
-                  <h3 className="self-start text-base font-bold text-yellow-950">
-                    Chris
-                  </h3>
-                  <p className="mt-2.5 text-sm text-zinc-800">
-                    President and CEO, PrintReach, USA
-                  </p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          {/* Testimonial 3 */}
-          <article className="w-[21%] max-md:ml-0 max-md:w-full">
-            {/* Similar structure as previous testimonials */}
-            <div className="py-7 pr-px pl-5 mx-auto w-full bg-white rounded-xl border border-rose-100 border-solid max-md:mt-8">
-              <img
-                src="/TestimonialsSection/Quote.svg"
-                className="object-contain w-8 aspect-[1.14]"
-                alt="Quote"
-              />
-              <p className="mt-6 text-base leading-7 text-gray-500">
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat aute irure sint
                 amet occaecat cupidatat non proident ea commodo consequat aute
